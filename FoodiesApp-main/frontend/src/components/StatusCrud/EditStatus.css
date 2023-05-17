@@ -1,0 +1,107 @@
+.status-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 500px;
+  height: 500px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  background: linear-gradient(to bottom right, #fff6f6c2, #ffffffb7, #fdf4f4bb);
+}
+
+.status-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 70%;
+}
+.status-image-container {
+  width: 500px;
+  height: 700px;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.status-image-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.status-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+/* 
+.status-user {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.status-caption {
+  margin-bottom: 10px;
+} */
+
+.MuiButton-contained {
+  background-color: #2196f3;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.MuiTypography-h5 {
+  margin-bottom: 30px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.status-container {
+  text-align: left;
+}
+
+.status-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.status-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.status-user {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.status-caption {
+  white-space: pre-wrap;
+  margin: 5px 0;
+}
